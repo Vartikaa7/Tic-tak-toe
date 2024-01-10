@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tictaktoe.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&family=Playpen+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="Welcome">
+        <h1>Welcome to Tic Tak Toe </h1>
+        <h3>To start game click on start button</h3>
+        <center><button>Start</button></center>
+    </div>
+    <div class="page1 box z">
+        <button id="a" style="background-color: aqua;">Play with Computer</button>
+        <button id="b" style="background-color: rgb(165, 240, 90);">2 players</button>
+    </div>
+    <div class="mainpage">
+        <div class="pdetails box z">
+            <h3><u>Details</u></h3>
+            <p>Enter your details..!</p>
+            <lable for="p1">player1</lable>
+            <input type="text" id="p1">
+            <lable for="p2">player2</lable>
+            <input type="text" id="p2">
+            <button>Submit</button>
+        </div>
+        <div class="cdetails box z">
+            <h3><u>Details</u></h3>
+            <p>Enter your details..!</p>
+            <lable for="pc1">player</lable>
+            <input type="text" id="pc1">
+            <button>Submit</button>
+
+        </div>
+        <div class="mode box z">
+            <button id="easy" style="background-color: firebrick;">Easy</button>
+            <button id="medium" style="background-color: darkgoldenrod;">Medium</button>
+        </div>
+        <div class="won box z">
+            <h3></h3>
+            <h3>Congratulations..!</h3>
+        </div>
+        <h1><u>Tic Tak Toe</u></h1>
+        <h2 class="player1" value="player1">player1</h2>
+        <h2 class="player2 Computer" value="player2">player2</h2>
+        <div class="main">
+            <div class="a"></div>
+            <div class="b"></div>
+            <div class="c"></div>
+            <div class="d"></div>
+            <div class="e"></div>
+            <div class="f"></div>
+            <div class="g"></div>
+            <div class="h"></div>
+            <div class="i"></div>
+        </div>
+    </div>
+    <script src="tictaktoe.js"></script>
+</body>
+</html>
